@@ -1,8 +1,18 @@
-.logo {
-    width: 30%;
-    height: auto;
-}
+/**
 
-.title {
-    width: 70%;
-}
+line-height
+font-*
+color
+background-*
+box-shadow
+text-shadow
+
+display*.*
+
+reading (css):
+box-model - very specific
+viewport width/height
+window width/height
+
+add css reset -> normalize
+**/
