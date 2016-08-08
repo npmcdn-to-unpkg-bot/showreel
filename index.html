@@ -3,69 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <title>Showreel | Ofer Rozenman</title>
-    <link rel="stylesheet" href="style-main.css">
+    <link rel="stylesheet" href="css/style-main.css">
 </head>
 <body>
-<header class="container">
-    <div class="logo">
-        [LOGO]
+<header class="header-style header-layout">
+    <div class="left-container">
+        <div class="logo">
+        </div>
     </div>
-    <div class="title">
-        <h1 class="title-top">SHOWREEL></h1>
-        <p class="title-bottom">Ofer Rozenman's Showreel</p>
+    <div class="right-container">
+        <h1 class="site-title">SHOWREEL</h1>
+        <h4 class="site-description">Ofer Rozenman's Showreel</h4>
     </div>
 </header>
-<main class="video-gallery">
-    <article class="video">
-        <header class="video-header">
-            <h1>The Shawshank Redemption</h1>
-            <p>
-                Two imprisoned men bond over a number of years,
-                finding solace and eventual redemption through acts of common decency.
-            </p>
-        </header>
-        <div class="video-player">
-
-        </div>
-    </article>
-    <article class="video">
-        <header class="video-header">
-            <h1>The Godfather</h1>
-            <p>
-                The aging patriarch of an organized crime dynasty transfers control of
-                his clandestine empire to his reluctant son.
-            </p>
-        </header>
-        <div class="video-player">
-
-        </div>
-    </article>
-    <article class="video">
-        <header class="video-header">
-            <h1>The Dark Knight</h1>
-            <p>
-                When the menace known as the Joker wreaks havoc and chaos on the
-                people of Gotham, the caped crusader must come to terms with one
-                of the greatest psychological tests of his ability to fight injustice.
-            </p>
-        </header>
-        <div class="video-player">
-
-        </div>
-    </article>
-</main>
-<nav class="site-menu">
-    <a href="#">Features</a>
-    <a href="#">Shorts</a>
-    <a href="#">Commercials</a>
-    <a href="#">About</a>
-    <a href="#">Contact</a>
-    <a href="#">Subscribe</a>
-</nav>
-<footer>
-    <a href="mailto:oferr@wix.com?Subject=Hello">oferr@wix.com</a>
-    <a href="https://www.facebook.com/rozenmanofer">fb</a>
-    <a href="http://www.imdb.com/name/nm3834957/?ref_=fn_al_nm_1">imdb</a>
+<div class="container orange-background">
+    <main class="gallery-container white-background">
+        <ul>
+            <li>
+                <div class="video-player-container">
+                    <iframe width="560"
+                            height="315"
+                            src="https://www.youtube.com/embed/6hB3S9bIaco"
+                            allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="video-description-style">
+                    <div class="title">
+                        The Shawshank Redemption
+                    </div>
+                    <p>
+                        Two imprisoned men bond over a number of years,
+                        finding solace and eventual redemption through
+                        acts of common decency.
+                    </p>
+                    <div class="stars-container">
+                        <div class="black-stars-template">
+                        </div>
+                        <div class="two-gold-stars">
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class=" video-player-container
+                        ">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/sY1S34973zA"
+                            allowfullscreen></iframe>
+                </div>
+                <div class="video-description-style">
+                    <div class="title">
+                        The Godfather
+                    </div>
+                    <p>
+                        The aging patriarch of an organized crime dynasty transfers control of
+                        his clandestine empire to his reluctant son.
+                    </p>
+                    <div class="stars-container">
+                        <div class="black-stars-template">
+                        </div>
+                        <div class="five-gold-stars">
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="video-player-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/yrJL5JxEYIw"
+                            allowfullscreen></iframe>
+                </div>
+                <div class="video-description-style">
+                    <div class="title">
+                        The Dark Knight
+                    </div>
+                    <p>
+                        When the menace known as the Joker wreaks havoc and chaos on the
+                        people of Gotham, the caped crusader must come to terms with one
+                        of the greatest psychological tests of his ability to fight injustice.
+                    </p>
+                    <div class="stars-container">
+                        <div class="black-stars-template">
+                        </div>
+                        <div class="three-gold-stars">
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </main>
+    <nav class="menu">
+        <ul>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Shorts</a></li>
+            <li><a href="#">Commercials</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Subscribe</a></li>
+        </ul>
+    </nav>
+</div>
+</div>
+<footer class="footer">
     <h6>&copy; 2016 Ofer Rozenman. All rights reserved.</h6>
 </footer>
 </body>

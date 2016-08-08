@@ -1,0 +1,174 @@
+@import "css/reset.css";
+
+/* header */
+.header-style {
+    background-color: white;
+    color: orange;
+    opacity: 0.9;
+}
+
+.header-layout {
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 1;
+    padding: 0.5em;
+}
+
+.header-layout > .left-container {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-layout > .right-container {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 0.25em;
+}
+
+.logo {
+    width: 5em;
+    height: 5em;
+    background-image: url("../images/img-logo.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.site-title {
+    font-family: Impact, fantasy;
+    font-size: 3em;
+    letter-spacing: 0.05em;
+}
+
+.site-description {
+    font-family: Arial, sans-serif;
+    font-size: 0.75em;
+    letter-spacing: 0.25em;
+    word-spacing: 0.2em;
+}
+
+@media all and (max-width: 1000px) {
+    .header-layout > .left-container {
+        width: 0;
+        visibility: hidden;
+    }
+}
+
+/* container */
+.container {
+    min-width: 1000px;
+    max-width: 1500px;
+    margin-top: 6em;
+    overflow: hidden;
+}
+
+.orange-background {
+    background-color: orange;
+}
+
+/* menu */
+.menu {
+    width: 15%;
+    float: right;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.menu > ul {
+    list-style-type: none;
+}
+
+.menu li {
+    line-height: 3em;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+/* gallery-container */
+.gallery-container {
+    width: 85%;
+    float: left;
+    padding: 0.5em 0.5em 0 0.5em;
+    box-sizing: border-box;
+}
+
+.white-background {
+    background-color: white;
+}
+
+.gallery-container li {
+    height: 315px;
+    margin-bottom: 4em;
+}
+
+.gallery-container li:last-child {
+    margin-bottom: 0;
+}
+
+.video-player-container {
+    margin-right: 0.5em;
+    float: left;
+}
+
+.video-description-style {
+    font-family: Arial, sans-serif;
+}
+
+.video-description-style > .title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.stars-container {
+    margin: 1em 0;
+    display: inline-block;
+}
+
+.black-stars-template:before {
+    content: "\2605 \2605 \2605 \2605 \2605";
+    position: absolute;
+}
+
+.one-gold-stars:before{
+    content: "\2605";
+    color: #FFCC00;
+    position: absolute;
+}
+
+.two-gold-stars:before{
+    content: "\2605 \2605";
+    color: #FFCC00;
+    position: absolute;
+}
+
+.three-gold-stars:before{
+    content: "\2605 \2605 \2605";
+    color: #FFCC00;
+    position: absolute;
+}
+
+.four-gold-stars:before{
+    content: "\2605 \2605 \2605 \2605";
+    color: #FFCC00;
+    position: absolute;
+}
+
+.five-gold-stars:before{
+    content: "\2605 \2605 \2605 \2605 \2605";
+    color: #FFCC00;
+    position: absolute;
+}
+
+/* footer */
+.footer {
+    clear: both;
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+    margin-left: 0.5em;
+}
