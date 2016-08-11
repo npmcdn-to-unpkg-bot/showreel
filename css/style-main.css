@@ -1,4 +1,5 @@
-@import "css/reset.css";
+@import "../css/reset.css";
+
 
 /* header */
 .header-style {
@@ -30,8 +31,7 @@
 .logo {
     width: 5em;
     height: 5em;
-    background-image: url("../images/img-logo.png");
-    background-repeat: no-repeat;
+    background: url("../images/img-logo.png") no-repeat;
     background-size: 100%;
 }
 
@@ -55,7 +55,8 @@
     }
 }
 
-/* container */
+
+/* body container */
 .container {
     min-width: 1000px;
     max-width: 1500px;
@@ -88,6 +89,7 @@
     text-decoration: none;
     font-family: Arial, sans-serif;
 }
+
 
 /* gallery-container */
 .gallery-container {
@@ -123,6 +125,7 @@
     font-size: 1.2em;
     font-weight: bold;
     margin-bottom: 0.5em;
+    display: inline-block;
 }
 
 .stars-container {
@@ -130,39 +133,12 @@
     display: inline-block;
 }
 
-.black-stars-template:before {
-    content: "\2605 \2605 \2605 \2605 \2605";
-    position: absolute;
-}
-
-.one-gold-stars:before{
+.star:before {
     content: "\2605";
-    color: #FFCC00;
-    position: absolute;
 }
 
-.two-gold-stars:before{
-    content: "\2605 \2605";
+.marked-star {
     color: #FFCC00;
-    position: absolute;
-}
-
-.three-gold-stars:before{
-    content: "\2605 \2605 \2605";
-    color: #FFCC00;
-    position: absolute;
-}
-
-.four-gold-stars:before{
-    content: "\2605 \2605 \2605 \2605";
-    color: #FFCC00;
-    position: absolute;
-}
-
-.five-gold-stars:before{
-    content: "\2605 \2605 \2605 \2605 \2605";
-    color: #FFCC00;
-    position: absolute;
 }
 
 /* footer */
