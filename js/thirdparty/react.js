@@ -15611,7 +15611,7 @@ var eventTypes = {
   },
   mouseOver: {
     phasedRegistrationNames: {
-      bubbled: keyOf({ onMouseOver: true }),
+      bubbled: keyOf({ mouseLeave: true }),
       captured: keyOf({ onMouseOverCapture: true })
     }
   },

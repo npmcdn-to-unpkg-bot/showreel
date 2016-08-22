@@ -9,7 +9,7 @@
 }
 
 .header-layout {
-    width: 100%;
+    width: 99%;
     top: 0;
     left: 0;
     position: fixed;
@@ -22,10 +22,24 @@
     vertical-align: middle;
 }
 
-.header-layout > .right-container {
+.header-layout > .middle-container {
     display: inline-block;
     vertical-align: middle;
     margin-left: 0.25em;
+}
+
+.header-layout > .right-container {
+    display: inline-block;
+    float: right;
+}
+
+.right-container > input {
+    vertical-align: bottom;
+}
+
+.hover-background {
+    background-color: black;
+    opacity: 0.9;
 }
 
 .logo {
@@ -50,6 +64,10 @@
 
 @media all and (max-width: 750px) {
     .header-layout > .left-container {
+        width: 0;
+        visibility: hidden;
+    }
+    .header-layout > .right-container {
         width: 0;
         visibility: hidden;
     }

@@ -1,3 +1,5 @@
+window.VideoBuilder;
+
 function VideoDataItem(imdbId) {
     this.imdbId = imdbId;
     this.videoSrc = Utils.imdbIDToYoutubeUrl[imdbId];

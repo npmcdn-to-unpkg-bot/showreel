@@ -46,8 +46,7 @@ VideoBuilder.prototype = {
             descriptionContainer.setAttribute(CONST.CLASS, "video-description");
             descriptionContainer.appendChild(createTitle.call(this));
             descriptionContainer.appendChild(createDescription.call(this));
-            var rating = new Rating(this.data.rating);
-            descriptionContainer.appendChild(rating.getContainer());
+            //todo: ReactDOM.render(<RatingComp value={this.data.rating} />, descriptionContainer);
             return descriptionContainer;
         }
 
